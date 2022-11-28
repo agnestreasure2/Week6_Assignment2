@@ -1,0 +1,480 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  .header1 a, .header1 a:active, .header1 a:visited{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .header1 a:hover{
+    color: purple;
+    
+  }
+  
+  
+  /* Hero and header section */
+  .start_teaching,
+  .upskill,
+  .header1,
+  .course_carousel,
+  .min_section,
+  .min_section_content,
+  .social_proof{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  
+  .header1 {
+    padding: 1rem 1.5rem;
+  }
+  
+  .background {
+    position: relative;
+    background-image: url("./image/board.jpg");
+    height: 26rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .hero_text {
+    width: 26rem;
+    border: 1px inset white;
+    background: white;
+    height: fit-content;
+    padding: 1.5rem 1.5rem 1rem 1rem;
+    position: absolute;
+    top: 4rem;
+    left: 5rem;
+    padding: 1.5rem;
+  }
+  
+  .font_h1 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .font_h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .content_text,
+  .upskill_text ul, .start_teaching p {
+    font-size: 20px;
+    /* font-weight: 100; */
+  }
+  
+  .header_input {
+    width: 550px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 15px;
+  
+  }
+  
+  .icon {
+    border: 1px solid black;
+    padding: 9px;
+  
+    /* margin-top: 10px; */
+  }
+  
+  .header_button {
+    font-size: 15px;
+    font-weight: 30px;
+    padding: 8px;
+  }
+  
+  .header_button2 {
+    font-size: 15px;
+    font-weight: 30px;
+    padding: 8px;
+    background: black;
+    color: white;
+  }
+  
+  /* Tooltip container */
+  .section1_all {
+    /* padding: 2.5rem 1rem 0rem 1rem; */
+    margin: 2rem;
+  }
+  
+  /* .sub_section_a1{
+  } */
+  /* .sub_section_a1 p{
+    padding-bottom: 1rem;
+  } */
+  
+  .sub_section_a2 {
+    border-top: 1rem;
+    border: 1px solid gray;
+    margin-top: 1rem;
+    padding: 2rem 0rem 4rem 1.5rem;
+  
+  }
+  
+  .sub_section_a2_text {
+    width: 45rem;
+  }
+  
+  .sub_section_a2_text h2,
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  .python_all{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: left;
+    column-gap: 2rem;
+  
+    font-size: 1.2rem;
+    font-weight: 700;
+    
+  }
+  
+  .python_all a{
+    text-decoration: none;
+    color: rgb(126, 122, 122);
+  }
+  
+  .python_all a:hover{
+    color: black;
+  }
+  
+  
+  
+  /* carousel_1 section */
+  /* 
+  .course_carousel{
+    padding: 1.5rem;
+    margin: 2rem;
+  } */
+  
+  .carousel_content {
+    width: 30rem;
+    height: 15rem;
+    /* border: 1px solid red; */
+    text-decoration: none;
+    padding: 0px;
+  }
+  
+  .carousel_content a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* .ccourse_carousel {
+    text-decoration: none;
+  } */
+  
+  .carousel_image,
+  .inner_carousel {
+    width: 14rem;
+  
+  }
+  
+  .carousel_image {
+    height: 8em;
+    padding: 0px;
+  
+  }
+  
+  .carousel_text {
+    line-height: 130%;
+  }
+  
+  
+  .inner_carousel {
+    padding-right: 5px;
+    margin-top: 2rem;
+  }
+  
+  .inner_carousel h4,
+  .green_bold {
+    font-weight: 700;
+  }
+  
+  .inner_carousel small,
+  .inner_carousel span,
+  .tooltip_content {
+    color: gray;
+    font-weight: 100;
+  
+  }
+  
+  .inner_carousel p {
+    font-weight: 900;
+    word-spacing: 5px;
+  }
+  
+  .inner_carousel p,
+  .inner_carousel span {
+    word-spacing: 5px;
+  }
+  
+  
+  #span_colored_text {
+    color: darkgoldenrod;
+  }
+  
+  .carousel_text {
+    width: 12rem;
+  }
+  
+  .carousel_text {
+    width: 13rem;
+  }
+  
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  
+  
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 1.3rem 1.1rem 1.1rem 1.1rem;
+    border-radius: 6px;
+    border-color: gray white white gray;
+    border: 1px inset;
+  
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    top: -100px;
+    right: -210px;
+    z-index: 1;
+  }
+  
+  /* .tooltiptext{
+    margin: 15px;
+  } */
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+  .green_text {
+    color: green;
+  }
+  
+  
+  
+  
+  
+  .min_section {
+    margin: 4rem 0rem;
+    border: 1px solid hsl(0, 6%, 94%);
+    background: hsl(0, 6%, 94%);
+    width: 100%;
+    height: 5rem;
+    padding: 2rem 3rem 1rem;
+  
+  }
+  
+  .min_section_icon {
+    border: 1px solid lightgray;
+    padding: 0.5rem;
+    border-radius: 100%;
+    background: lightgray;
+    margin: 0rem 1rem 1rem;
+  
+  }
+  
+  .min_section_text {
+    font-weight: 600;
+    width: 18rem;
+  }
+  
+  .category_cover {
+    margin: 5rem 0rem;
+    border: 1px solid hsl(0, 6%, 94%);
+    background: hsl(0, 6%, 94%);
+    height: 28rem;
+    padding: 6rem 6rem;
+  }
+  
+  .category h4{
+      font-size: 1.1rem;
+    }
+  .category_cover h3{
+    font-size: 2rem;
+    margin-top: -3rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .category_cover button{
+    background: hsl(0, 6%, 94%);
+    border: 1px solid black;
+    color: black;
+    width: 10rem;
+    height: 2.5rem;
+    font-weight: 700;
+  
+  }
+  
+  .social_cover{
+    align-content: space-between;
+    justify-content: center;
+    text-align: center;
+    line-height: 2rem;
+    padding: 0rem 1.5rem;
+  
+  }
+  
+  .social_cover p{
+    font-size: 18px;
+    color: gray;
+  }
+  
+  .upskill_text ul{
+    margin-bottom: 1rem;
+  }
+  
+  .upskill, .start_teaching {
+    padding: 5rem 15rem 0rem;
+  
+  }
+  
+  .start_teaching {
+    margin:0 0 5rem ;
+  }
+  
+  .upskill_text, .teaching_text {
+    width: 22rem;
+    line-height: 2rem;
+  }
+  
+  .business_logo {
+    width: 10rem;
+  }
+  
+  .upskill_image {
+    width: 25rem;
+  }
+  
+  .black_button{
+    border: 1px solid black;
+    background: black;
+    color: white;
+    width: 10rem;
+    height: 2.5rem;
+    font-weight: 700;
+  }
+  
+  .white_button{
+    border: 1px solid black;
+    background: white;
+    color: black;
+    width: 7rem;
+    height: 2.5rem;
+    font-weight: 700;
+  }
+  
+  #footer{
+    height: 18rem;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    padding: 2rem ;
+    position: relative;
+  }
+  
+  .footer_section, .category {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: left;
+    column-gap: 10rem;
+  }
+  
+  .footer_button{
+    position: absolute;
+    left: 74rem;
+    bottom: 14rem;
+  }
+  
+  .footer_button button{
+    background: black;
+    border: 1px solid white;
+    color: white;
+    width: 7rem;
+    text-align: left;
+    padding: 6px  8px 5px 7px;
+    /* vertical-align: middle; */
+  
+  }
+  
+  
+  
+  .footer_button img{
+    width: 20px;
+    vertical-align: middle;
+  
+  }
+  
+  /* .anchor{
+    margin-right: 18rem;
+    justify-content:center;
+    padding-right: 5rem;
+  } */
+  
+  .anchor a, .anchor a:active, .anchor a:visited{
+    color: white;
+    text-decoration: none;
+  
+  }
+  
+  /* .anchor a:visited{
+    color: white;
+    text-decoration: none;
+  } */
+  
+  .anchor a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+  
+  /* .anchor a::after{
+    color: white;
+    text-decoration: none;
+  } */
+  
+  .footer_base{
+    border: 1px solid white;
+    border-radius: 45%;
+    width: fit-content;
+   margin-left: 65rem ;
+    padding: 0.5px 4px;
+    /* font-size: 10px; */
+    
+  }
+  
+  .footer_logo{
+    width: 6rem;
+    margin-top: 2rem;
+  
+  }
+  
+  /* .start_teaching {
+    padding: 0rem 12rem;
+  } */
+  
